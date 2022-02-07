@@ -1,0 +1,20 @@
+.form-container{
+    width: 50vw;
+    height: 30vh;
+    background: #ced3dc;
+    margin: auto;
+    margin-top: 15vh;
+    border-radius: .5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.date-picker{
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    width: 100%;
+    height: 100%;
+    margin-top: 15vh;
+}
