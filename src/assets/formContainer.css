@@ -1,20 +1,44 @@
-.form-container{
-    width: 50vw;
-    height: 30vh;
-    background: #ced3dc;
-    margin: auto;
-    margin-top: 15vh;
-    border-radius: .5rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
+.form-container {
+  width: 40vw;
+  height: 20vh;
+  background: #ced3dc;
+  margin: auto;
+  margin-top: 15vh;
+  border-radius: 0.5rem;
+  text-align: center;
+  overflow: hidden;
 }
-.date-picker{
-    /* display: flex;
-    justify-content: center;
-    align-items: center; */
-    width: 100%;
-    height: 100%;
-    margin-top: 15vh;
+
+.form-container-inputs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.input-controller {
+  width: 7rem;
+  height: 1.3rem;
+  background-color: whitesmoke;
+  border: none;
+}
+
+.form-input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex: 1;
+  text-align: center;
+}
+.btn-container {
+  margin-top: 30px;
+}
+.submit-btn{
+    padding: 5px 10px;
+    border: 2px solid #7f98a8be;
+}
+.submit-btn:hover{
+    cursor: pointer;
+    background-color: #7f98a8be;
+    outline: none;
 }
