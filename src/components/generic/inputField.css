@@ -1,0 +1,45 @@
+.input-container {
+  display: flex;
+}
+.input {
+  border: 1px solid #ccc;
+  background: #fff;
+  background-image: none;
+  padding: 6px 12px;
+  border-radius: 4px;
+  width: 99%;
+  font-size: 14px;
+  color: #555;
+  outline: none;
+}
+input:focus {
+  border: 1px solid black;
+}
+.input-disable:hover {
+  cursor: not-allowed;
+}
+.error-msg {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 0px 8px;
+  font-size: 12px;
+  color: red;
+  height: 24px;
+  overflow: auto;
+}
+.border-error {
+  border: 1px solid red;
+}
+.border-error:focus {
+  border: 1px solid red;
+}
+
+input::placeholder {
+  font-weight: lighter;
+  font-size: small;
+}
+.required::after {
+  content: "*";
+  color: red;
+}
