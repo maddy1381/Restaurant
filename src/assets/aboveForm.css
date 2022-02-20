@@ -1,0 +1,35 @@
+.form-container-inputs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.input-controller {
+  width: 7rem;
+  height: 1.3rem;
+  background-color: whitesmoke;
+  border: none;
+}
+
+.form-input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex: 1;
+  text-align: center;
+  padding: 5px 5px;
+}
+.btn-container {
+  margin-top: 30px;
+}
+.submit-btn {
+  padding: 5px 10px;
+  border: 2px solid #7f98a8be;
+}
+.submit-btn:hover {
+  cursor: pointer;
+  background-color: #7f98a8be;
+  outline: none;
+}

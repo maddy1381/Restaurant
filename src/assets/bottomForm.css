@@ -1,0 +1,26 @@
+.bottom-input-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.single-input-container{
+    min-width: 10rem;
+    max-width: 12rem;
+    padding: 5px 10px;
+    flex: 1;
+    text-align: start;
+}
+textarea{
+    outline: none;
+    border: none;
+}
+textarea:focus{
+    border: 1px solid black;
+}
+
+@media only screen and (max-width: 908px) {
+    .bottom-input-container{
+        justify-content: center;
+    }
+}
