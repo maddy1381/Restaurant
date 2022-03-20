@@ -42,3 +42,8 @@
     background-color: #7f98a8be;
     outline: none;
 }
+
+.calender {
+    display: flex;
+    justify-content: flex-end;
+}

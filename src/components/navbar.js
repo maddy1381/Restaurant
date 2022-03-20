@@ -1,5 +1,6 @@
 import React from "react";
-import "../assets/navbar/navbar.css";
+import { Image } from "react-bootstrap";
+import "../assets/styles/navbar.css";
 
 const Navbar = () => {
   return (
