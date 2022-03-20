@@ -4,6 +4,7 @@ import { FaAtlassian } from 'react-icons/fa'
 import CardComponent from './generic/CardComponent'
 import '.././index.css';
 import ModalComponent from './ModalComponent';
+import MyModalComponent from './MyModalComponent';
 
 function AccountSelector(props) {
     const [showModal, setShowModal] = useState(false);
@@ -34,12 +35,7 @@ function AccountSelector(props) {
                         <AiOutlineRight style={{color: 'green'}}/>
                     </div>
                 </div>
-                <ModalComponent 
-                    show={showModal}
-                    onHide={() => setShowModal(false)}
-                    accounts={accounts}
-                    selectedAccount={selectedAccount}
-                    selectedAccountChanged={(newAccount) => setSelectedAccount(newAccount)} />
+                {showModal && <MyModalComponent />}
             </CardComponent>
         </div>
     )
